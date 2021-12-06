@@ -2,6 +2,7 @@ html {
     height: 100vh;
     width: 100vw;
 }
+
 body {
     width: 100vw;
     display: flex;
@@ -29,6 +30,7 @@ input[type='text'] {
     width: 80%;
     height: 1.7em;
 }
+
 input[type='number'] {
     border: 3.5px solid black;
     box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
@@ -46,7 +48,7 @@ input[type='number'] {
 }
 
 .resetButton {
-    background-color: red;  
+    background-color: red;
     border-radius: 3px;
     color: black;
     box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
@@ -57,7 +59,6 @@ input[type='number'] {
 
 img {
     width: 20%;
-   
 }
 
 .container {
@@ -69,13 +70,16 @@ img {
     display: flex;
     justify-content: flex-end;
 }
+
 input[type='button'] {
     margin-left: 10px;
     width: 20%;
 }
+
 div:nth-child(3) {
     margin-top: 10px;
 }
+
 div:nth-child(4) {
     margin-top: 10px;
 }
@@ -93,29 +97,67 @@ div:nth-child(4) {
 .white {
     background-color: white;
 }
+
 .correct {
     background-color: #D0FFD5;
+}
+
+/* Navbar */
+.nav {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+nav div {
+    margin: 1em;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    box-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div img {
+    width: 50%;
+}
+
+.camel-button {
+    background-color: #CCA20E;
+}
+
+.banco-button {
+    background-color: #2849BD;
 }
 
 
 @media only screen and (max-width: 450px) {
 
-    #convert .convertButton, #result .resetButton {
+    #convert .convertButton,
+    #result .resetButton {
         display: none;
     }
 
     .titleImage {
         display: none;
     }
+
     .container {
         width: 80vw;
     }
+
     .container div {
         justify-content: center;
     }
+
     img {
         width: 40vw;
     }
+
     input[type='button'] {
         margin: 5px;
         width: 40%;
@@ -130,4 +172,3 @@ div:nth-child(4) {
     }
 
 }
-
