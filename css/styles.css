@@ -17,7 +17,7 @@ body {
 h1 {
     display: inline;
     margin-right: 0.5em;
-    font-size: 1.5rem;
+    font-size: 1.8em;
     font-family: 'Raleway', sans-serif;
     text-shadow: 0 7px 4px rgba(0, 0, 0, 0.25);
     align-self: flex-end;
@@ -58,7 +58,7 @@ input[type='number'] {
 
 
 img {
-    width: 20%;
+    width: 19%;
 }
 
 .container {
