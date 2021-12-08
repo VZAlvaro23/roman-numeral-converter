@@ -59,6 +59,7 @@ input[type='number'] {
 
 img {
     width: 19%;
+    
 }
 
 .container {
@@ -133,7 +134,13 @@ nav div img {
 .banco-button {
     background-color: #2849BD;
 }
+a div:hover {
+    border: 4px solid rgb(71, 255, 71);
+}
 
+.active {
+    border: 4px solid rgb(71, 255, 71)
+}
 
 @media only screen and (max-width: 450px) {
 
